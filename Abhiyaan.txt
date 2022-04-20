@@ -1,0 +1,74 @@
+SUBSECTION B.3: Literature review and Theory
+
+1) Different types of sensors are:
+		1.Lidar
+		2.Radar
+		3.Sonar
+		4.Camera
+		5.Inertial Navigation systems
+		6.GPS
+1.Lidar:
+	Lidar refers to light detection and ranging  
+	It is a sensor which works based on the principle of projecting infrared rays and recieving it back.
+	It calculates the particles/objects distance by calculating the time taken  
+  ADVANTAGES:
+	It senses the objects rapidly as the rays travel in speed of light
+	It sends thousands of rays so it will give more accuracy to the vehicle 
+  DISADVANTAGES:
+	The infrared rays are harmful to humans and other creatures
+	Few objects will reflect or refract infrared rays in this case it fails to identify the objects 
+2.Radar:
+	Radar refers to radio detection and ranging
+	it works on the principle of emiting radio waves and recieving it back
+	It calculates the particles/objects distance by calculating the time taken  
+   ADVANTAGES:
+	It senses objects fastly
+	It sends thousands of waves so it will give more accuracy to the vehicle 
+   DISADVANTAGES:
+	Few objects will reflect or refract radio waves in this case it fails to identify the objects 
+	These waves can also mix with the waves in air and get modulated
+3.Sonar:
+	Sonar refers to sound navigation and ranging
+	It emits sound waves and recieve back and sense objects and also senses the one emitted by other objects
+   ADVANTAGES:
+	It can be used at any time(day/night)
+	it senses objects fastly
+   DISADVANTAGES:
+	It recieves several kind of sounds and it detects few objects falsely
+	The sound waves can harm animals
+4.Cameras
+	it works on the principle of Capturing Images With Cameras
+	It works based on Computer vision
+   ADVANTAGES:
+	Objects are captured with high quality 
+  DISADVANTAGES:
+	it won't work well in all type of whether
+5.Inertial Navigation system:
+	it detects a car’s physical movements
+	These navigation devices help self-driving cars stabilize themselves
+	
+  ADVANTAGES:
+	it also Help cars determine whether they should take any kind of protective safety actions 
+  DISADVANTAGES:
+	It can't be helpful if there is a problem in the avigation devices
+6.GPS
+	GPS refers to Global Positioning System
+	Users with a GPS receiver can obtain geolocation and time information 
+  ADVANTAGES:
+	GPS data often varies around a five-meter radius so it gives more accuracy of the geolocation
+  DISADVANTAGES:
+	It is not used in many countries as many satelites are required to send and recieve information which is not available in a lot of countries
+
+These sensors can be used in certain particular places like 
+	Lidar,Sonar,Radar can be used mostly for object detections
+	GPS can be used to obtain geolocation and time
+	Inertial Navigation Systems can be used in cars and jeeps for saftey purpose
+
+sensor fusion is the process of combining sensor data  derived from different sensors
+	thus resulting information has less uncertainty than would be possible when these sources were used individually
+	
+the above mentioned sensors are used in combination so that we can get rid of errors
+	it can be like Camera sensor ,inertial navigation system and GPS can combinely work to get more safety
+
+SOURCE  :  GOOGLE
+
